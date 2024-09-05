@@ -17,5 +17,17 @@ This project extracts relevant information from resumes in PDF format, including
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/resume-info-extraction.git
+   git clone https://github.com/AdiD-code/ResumeParser.git
    cd resume-info-extraction
+   ```
+   
+2.**Install the dependencies**
+
+Install Python libraries using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Install Poppler:
+
+For Windows: Download the binaries from [Poppler for Windows(https://github.com/oschwartz10612/poppler-windows)] and add the path to poppler/bin to your system's PATH environment variable.
