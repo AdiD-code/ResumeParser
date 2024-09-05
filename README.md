@@ -21,7 +21,7 @@ This project extracts relevant information from resumes in PDF format, including
    cd resume-info-extraction
    ```
    
-2.**Install the dependencies**
+2. **Install the dependencies**
 
 The requirements.txt file includes the necessary Python libraries for the project. To install them, run:
 Install Python libraries using pip:
@@ -29,7 +29,7 @@ Install Python libraries using pip:
    pip install -r requirements.txt
    ```
 
-3.**Install Poppler**
+3. **Install Poppler**
 
 For Windows: Download the binaries from [Poppler for Windows](https://github.com/oschwartz10612/poppler-windows) and add the path to poppler/bin to your system's PATH environment variable.
 
@@ -45,7 +45,7 @@ For Linux: Install using your package manager:
 sudo apt-get install poppler-utils
 ```
 
-4.**Install Tesseract OCR (for OCR capabilities)**
+4. **Install Tesseract OCR (for OCR capabilities)**
 
 For Windows: Download and install from [Tesseract at UB Mannheim.](https://github.com/UB-Mannheim/tesseract/wiki)
 
@@ -61,7 +61,7 @@ sudo apt-get install tesseract-ocr
 
 Make sure to install additional system dependencies like Poppler and Tesseract as described above.
 
-5.**Output**
+5. **Output**
 
 The extracted data will be saved in both CSV and JSON formats. 
 
