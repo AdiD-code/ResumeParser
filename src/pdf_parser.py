@@ -3,11 +3,12 @@ import PyPDF2
 import pytesseract
 from pdf2image import convert_from_path
 
+# set the poppler executable file path as environment variable 'POPPLER_BIN'
 # Retrieve the Poppler bin path from environment variable
-poppler_path = os.getenv('POPPLER_BIN', '')  # Default to '' if not set
+poppler_path = os.getenv('POPPLER_BIN', '')  # the path will default to '' if path to environment variable is not set
 
-# Specify the Tesseract executable path
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# Specify the file path to Tesseract executable
+pytesseract.pytesseract.tesseract_cmd = r''
 
 def extract_text_from_pdf(pdf_path):
     text = ""
