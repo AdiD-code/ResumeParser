@@ -55,6 +55,7 @@ def process_resume(pdf_path):
     certifications = extract_certifications(text)
 
     # Compile all extracted data into a structured format
+    #Change the format according to your needs
     data = {
         'Name': edited_name,
         'Technical Skills': skills['Technical Skills'],
@@ -102,8 +103,8 @@ def process_all_resumes(directory_path, output_csv_path, output_json_path):
 
 if __name__ == "__main__":
     # Specify the directory path containing resumes
-    directory_path = "C:/Users/Aditya/Desktop/Basuri/MajorProj/Good_resumes"
+    directory_path = ""
     # Specify the output file paths
-    output_csv_path = "C:/Users/Aditya/Desktop/Basuri/MajorProj/resume_data.csv"
-    output_json_path = "C:/Users/Aditya/Desktop/Basuri/MajorProj/resume_data.json"
+    output_csv_path = "" # use .csv extension at the end
+    output_json_path = "" # use .json extension at the end
     process_all_resumes(directory_path, output_csv_path, output_json_path)
