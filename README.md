@@ -61,7 +61,13 @@ sudo apt-get install tesseract-ocr
 
 Make sure to install additional system dependencies like Poppler and Tesseract as described above.
 
-5. **Output**
+## To Do List
+
+Improve accuracy for 'HSC' and 'SSC' scores
+Improve 'College' extraction
+Improve 'Course' extraction
+
+## Output
 
 The extracted data will be saved in both CSV and JSON formats. 
 
