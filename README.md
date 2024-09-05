@@ -49,6 +49,8 @@ sudo apt-get install poppler-utils
 
 For Windows: Download and install from [Tesseract at UB Mannheim.](https://github.com/UB-Mannheim/tesseract/wiki)
 
+Set environment variables for Tesseract-OCR (Windows only): Add the path to the installed Tesseract application to your system's PATH environment variable. This allows the program to find the Tesseract-OCR.
+
 For macOS: Use Homebrew:
 ```bash
 brew install tesseract
@@ -63,9 +65,9 @@ Make sure to install additional system dependencies like Poppler and Tesseract a
 
 ## To Do List
 
-Improve accuracy for 'HSC' and 'SSC' scores
-Improve 'College' extraction
-Improve 'Course' extraction
+### Improve accuracy for 'HSC' and 'SSC' scores
+### Improve 'College' extraction
+### Improve 'Course' extraction
 
 ## Output
 
